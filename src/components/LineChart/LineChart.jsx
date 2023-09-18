@@ -75,7 +75,7 @@ const LineChart = () => {
 
   return (
     <div>
-      <LChart width={500} height={400} data={math_marks}>
+      <LChart className="mx-auto" width={1200} height={400} data={math_marks}>
         <XAxis dataKey={"name"}></XAxis>
         <YAxis></YAxis>
         <Line dataKey="math" stroke="blue"></Line>
